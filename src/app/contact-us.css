@@ -1,0 +1,42 @@
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+  }
+  
+  input:focus {
+    border-top: 1px solid #af272f;
+    border-right: 1px solid #af272f;
+    border-left: 1px solid #af272f;
+  
+  }
+  title:focus{
+    border: none;
+  }
+  textarea:focus {
+    border-top: 1px solid #af272f;
+    border-right: 1px solid #af272f;
+    border-left: 1px solid #af272f;
+  
+  }
+  
+  textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+  }
+  
+  select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+  }
+  #searchInput::placeholder {
+    color: white !important;
+  }
+  ::placeholder { 
+    color: black !important;
+  }
