@@ -72,19 +72,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='flex flex-col gap-[30px] max-sm:justify-center max-sm:text-center max-sm:items-center'>
-                        <span className='text-[18px]'>follow us</span>
+                        <span className='text-[18px] font-bold'>FOLLOW US</span>
                         <div className='flex gap-[20px] items-center'>
-                            <a href="https://www.facebook.com/HnSenergy/" target="_blank" className="text-white hover:text-[#9b9b9b] transition-colors duration-300">
-                                <BiLogoFacebook size={24} />
-                            </a>
-                            <a href="https://twitter.com/hnsenergy" target="_blank" className="text-white hover:text-[#9b9b9b] transition-colors duration-300">
-                                <BiLogoTwitter size={24} />
-                            </a>
-                            <a href="https://www.linkedin.com/company/h-s-energy-llc/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#9b9b9b] transition-colors duration-300">
-                                <BiLogoLinkedin size={24} />
-                            </a>
-                            <a href="https://www.instagram.com/hs.energy/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#9b9b9b] transition-colors duration-300">
-                                <BiLogoInstagram size={24} />
+                            <a href="https://www.linkedin.com/company/h-s-energy-llc/?viewAsMember=true" target="https://www.linkedin.com/company/h-s-energy-llc" rel="noopener noreferrer" className="text-white hover:text-[#9b9b9b] transition-colors duration-300">
+                                <BiLogoLinkedin size={22} />
                             </a>
                         </div>
                     </div>

@@ -66,26 +66,26 @@ const SlideBanner = () => {
                 </Swiper>
             </div>
             <div className='flex justify-center -top-[60px] relative z-10'>
-                <div className='bg-white grid grid-cols-7 max-sm:grid-cols-2 items-center gap-[20px] w-[80%]  p-[20px] rounded-[10px]  shadow-xl '>
+                <div className='bg-white grid grid-cols-7 max-sm:grid-cols-2 items-center w-[80%] p-[10px] rounded-[10px] shadow-xl '>
                     <div className="h-[5vh] overflow-hidden">
                         <img src="/header/charge.png" alt="" className="h-[4vh] w-[100%] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
                     </div>
-                    <div className='overflow-hidden'>
+                    <div className='overflow-hidden pl-[100px]'>
                         <img src="/header/two.png" alt="" className=" object-cover transform  duration-500 hover:scale-125 hover:duration-700" />
                     </div>
-                    <div className=' overflow-hidden'>
-                        <img src="/header/chevron.png" alt="" className=" object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
+                    <div className='overflow-hidden rounded-[10px] pl-[50px]'>
+                        <img src="/header/chevron.png" alt="" className="object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
                     </div>
-                    <div className=' w-[90%]  overflow-hidden'>
-                        <img src="/header/gaso.png" alt="" className=" w-[80%] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
+                    <div className='w-[50%] overflow-hidden rounded-[100px]'>
+                        <img src="/header/gaso.png" alt="" className="w-[100%] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
                     </div>
-                    <div className=' overflow-hidden'>
-                        <img src="/header/extra.png" alt="" className=" object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
+                    <div className='ml-[-50px] overflow-hidden'>
+                        <img src="/header/em logo.jpg" alt="" className="object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
                     </div>
-                    <div className=' overflow-hidden'>
+                    <div className='pl-[50px] overflow-hidden'>
                         <img src="/header/one.png" alt="" className=" object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
                     </div>
-                    <div className=' h-[5vh] overflow-hidden'>
+                    <div className=' h-[5vh] w-[140%] pr-[90px] overflow-hidden'>
                         <img src="/header/pearson.png" alt="" className="h-[4vh] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700" />
                     </div>
                 </div>

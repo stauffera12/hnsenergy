@@ -66,17 +66,8 @@ const Header = () => {
                 <div className='flex gap-[20px] w-[85%] max-sm:w-[60%] max-lg:w-[70%] bg-[#102c4e] text-white pl-[110px] max-sm:pl-[20px] max-lg:pl-[40px] py-3'>
                     <span className='text-[14px]'>Follow Us:</span>
                     <div className='flex gap-[10px] items-center'>
-                        <a href="https://www.facebook.com/HnSenergy/" target="_blank" >
-                            <BiLogoFacebook size={20} />
-                        </a>
-                        <a href="https://twitter.com/hnsenergy" target="_blank" >
-                            <BiLogoTwitter size={20} />
-                        </a>
-                        <a href="https://www.linkedin.com/company/h-s-energy-llc/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/company/h-s-energy-llc/?viewAsMember=true" target="https://www.linkedin.com/company/h-s-energy-llc" rel="noopener noreferrer">
                             <BiLogoLinkedin size={20} />
-                        </a>
-                        <a href="https://www.instagram.com/hs.energy/" target="_blank" >
-                            <BiLogoInstagram size={20} />
                         </a>
                     </div>
                 </div>
