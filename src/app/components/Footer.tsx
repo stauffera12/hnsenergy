@@ -41,7 +41,7 @@ const Footer = () => {
             <span className="text-[18px] font-bold">INFO</span>
             <div className="flex flex-col gap-[10px] ">
               <div className="flex gap-[15px] max-sm:justify-center ">
-                <FaMapMarkerAlt className="max-sm:hidden" />
+                <FaMapMarkerAlt className="max-lg:hidden" />
                 <div className="flex flex-col justify-center">
                   <div className="flex items-center max-sm:justify-center gap-[10px]">
                     <FaMapMarkerAlt className="lg:hidden " />
@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex gap-[15px] max-sm:justify-center">
-                <MdPhoneIphone className="max-sm:hidden" />
+                <MdPhoneIphone className="max-lg:hidden" />
                 <div className="flex flex-col justify-center">
                   <div className="flex items-center max-sm:justify-center gap-[10px]">
                     <MdPhoneIphone className="lg:hidden " />
@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex gap-[15px] max-sm:justify-center max-sm:text-center">
-                <MdEmail className="max-sm:hidden" />
+                <MdEmail className="max-lg:hidden" />
                 <div className="flex flex-col justify-center">
                   <div className="flex items-center max-sm:justify-center gap-[10px]">
                     <MdEmail className="lg:hidden " />

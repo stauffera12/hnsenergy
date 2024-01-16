@@ -50,10 +50,10 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-[50%] flex max-sm:w-[100%] pl-[40px] max-sm:pl-0">
-              <img src="/red.png" alt="" className="" />
+              <img src="/red.png" alt="history Image" className="" />
               <motion.img
                 src="/chevron.png"
-                alt=""
+                alt="chevron Image"
                 className="h-[65vh] relative right-[150px] top-[20px] max-sm:w-[65%] object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
