@@ -99,21 +99,21 @@ const SlideBanner = () => {
               className="w-[100%] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
-          <div className="ml-[-50px] overflow-hidden">
+          <div className="overflow-hidden">
             <img
-              src="/header/em logo.jpg"
+              src="/header/extra.png"
               alt="Logo Image"
               className="object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
-          <div className="pl-[50px] overflow-hidden">
+          <div className=" overflow-hidden">
             <img
               src="/header/one.png"
               alt="one Image"
               className=" object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
-          <div className=" h-[5vh] w-[140%] pr-[90px] overflow-hidden">
+          <div className=" h-[5vh] w-[150%] pr-[90px] overflow-hidden">
             <img
               src="/header/pearson.png"
               alt="pearson Image"
