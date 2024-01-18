@@ -20,9 +20,9 @@ const Become = () => {
           <span className="text-[15px] font-medium tracking-[4.6px]">
             H&S ENERGY PRODUCTS, LLC
           </span>
-          <h1 className="text-[50px] font-bold max-sm:leading-[60px]">
+          <div className="text-[50px] font-bold max-sm:leading-[60px]">
             BECOME FUTURISTIC
-          </h1>
+          </div>
           <p className="text-[14px] font-medium w-[50%] tracking-[0.4px] leading-[24px]">
             With competitively priced services, we proudly offer well-maintained
             service stations and conduct environmentally-safe operations to

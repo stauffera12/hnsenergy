@@ -61,7 +61,7 @@ const Login = () => {
             <div className=' flex bg-black w-[100%] h-[80vh] max-md:h-[100vh] flex-wrap-reverse mx-[200px] max-md:mx-0 max-lg:mx-[100px]  rounded-[24px]'>
                 <div className='w-[45%] max-md:w-[100%] max-lg:w-[100%] bg-white text-[#102c4e] rounded-l-[24px] max-md:rounded-none max-lg:rounded-b-[24px] max-lg:rounded-none p-10'>
                     <div className=' flex justify-center items-center text-center max-md:flex-none gap-5'>
-                        <Image src='/logo.png' alt='' width={50} height={50} className=' h-[30px] w-[40px]' />
+                        <Image src='/logo.png' alt='hn logo' width={50} height={50} className=' h-[30px] w-[40px]' />
                         <h1 className=' text-[24px] font-semibold'>H & S Energy</h1>
                     </div>
                     <h1 className=' text-[20px] mt-10'>Welcome Back, Please login to your account</h1>
@@ -103,7 +103,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div className='w-[55%] max-md:w-[100%] max-lg:w-[100%] max-lg:rounded-t-[24px] max-md:rounded-none bg-[#af272f] rounded-r-[24px] max-lg:rounded-none flex justify-center items-center '>
-                    <Image src='/admin/login.svg' alt='' width={250} height={150} className=' h-[200px] w-[300px]' />
+                    <Image src='/admin/login.svg' alt='hn login' width={250} height={150} className=' h-[200px] w-[300px]' />
                 </div>
             </div>
         </div>

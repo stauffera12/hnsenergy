@@ -76,9 +76,9 @@ const ContactMap = () => {
         <div className="flex flex-col w-[100%] items-center ">
           <span className="text-[#af272f] text-center">GET IN TOUCH</span>
           <div className="w-full">
-            <h1 className="text-[#0e0e0e] text-[50px]  pb-[40px] w-[100%] font-bold leading-[62px] text-center">
+            <div className="text-[#0e0e0e] text-[50px]  pb-[40px] w-[100%] font-bold leading-[62px] text-center">
               STAY CONNECTED WITH US
-            </h1>
+            </div>
           </div>
           <div className="flex max-sm:flex-col bg-white rounded-[10px] w-[85%] shadow ">
             <div className="bg-[#102c4e] text-[white] rounded-[10px] w-[45%] max-sm:w-full px-[40px] max-sm:px-[10px]">
@@ -112,7 +112,7 @@ const ContactMap = () => {
                 <div>
                   <label
                     htmlFor="nameInput"
-                    className="text-[14px] text-[#959aa1] "
+                    className="text-[14px] "
                   >
                     Name
                   </label>
@@ -137,7 +137,7 @@ const ContactMap = () => {
                 <div>
                   <label
                     htmlFor="emailInput"
-                    className="text-[14px] text-[#959aa1]  "
+                    className="text-[14px]  "
                   >
                     Email Address
                   </label>
@@ -183,7 +183,7 @@ const ContactMap = () => {
                 <div className="w-[100%] ">
                   <label
                     htmlFor="contactReason"
-                    className="text-[14px] text-[#959aa1] "
+                    className="text-[14px]  "
                   >
                     Select Service
                   </label>

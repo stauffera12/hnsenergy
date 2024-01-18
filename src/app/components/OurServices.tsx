@@ -4,7 +4,7 @@ import { OurservicesData } from '../data/ourservices'
 const OurServices = () => {
     return (
         <div className='pb-[50px]'>
-            <span className='text-[50px] font-bold text-center text-black flex justify-center pb-[50px]'>OUR SERVICES</span>
+            <div className='text-[50px] font-bold text-center text-black flex justify-center pb-[50px]' >OUR SERVICES</div>
             <div className='grid grid-cols-4 max-sm:grid-cols-1 max-sm:px-[20px]'>
                 {OurservicesData.map(service => (
                     <div key={service.id} className="relative h-[40vh]  max-sm:h-[35vh]"  style={{backgroundImage: `url(${service.image})`, backgroundSize: 'cover', backgroundColor:'black'}}>

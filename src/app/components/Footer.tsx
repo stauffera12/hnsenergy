@@ -25,7 +25,7 @@ const Footer = () => {
             <Link href={"/"} className="max-sm:justify-center flex">
               <img
                 src="logofooter.png"
-                alt="H&N logo"
+                alt="HN logo"
                 className="h-[20vh] w-[60%] pb-[20px]"
               />
             </Link>
@@ -60,6 +60,8 @@ const Footer = () => {
                   <div
                     onClick={makeCall}
                     className="text-[#b9b9b9] cursor-pointer"
+                    role="button"
+                    tabIndex={0}
                   >
                     (714) 761 5426
                   </div>
@@ -75,6 +77,8 @@ const Footer = () => {
                   <div
                     onClick={sendEmail}
                     className="text-[#b9b9b9] cursor-pointer"
+                    role="button"
+                    tabIndex={0}
                   >
                     info@hnsenergyproducts.com
                   </div>
@@ -94,14 +98,10 @@ const Footer = () => {
               >
                 Our History
               </Link>
-              <a
-                href="https://pwrmarket.com"
-                target="_blank"
-                className="hover:text-gray-400 cursor-pointer"
-              >
+              <a target="_blank" className="hover:text-gray-400 cursor-pointer" href="https://pwrmarket.com" aria-label="Power Market">
+                <span className="hidden">(opens in a new tab)</span>
                 Power Market
-              </a>
-              <Link
+              </a>              <Link
                 href={"/commercial-accounts"}
                 className=" hover:text-gray-400 cursor-pointer"
               >
@@ -152,18 +152,18 @@ const Footer = () => {
       <div className="w-[100%] flex justify-center border-t-[1px] border-[#777777]">
         <div className="w-[45%] gap-[10px] max-sm:w-full flex text-[13px] justify-between max-sm:flex-wrap px-[20px] max-sm:gap-[10px] py-4">
           <span className="text-[#85a3c8]">Legal</span>
-          <span className="border-l-[1px] border-[#777777]"></span>
+          <span role="presentation" className="border-l-[1px] border-[#777777]"></span>
           <Link href={"/privacy-policy"}>
             <span className="text-[#b9b9b9]">Privacy Policy </span>
           </Link>
-          <span className="border-l-[1px] border-[#777777]"></span>
+          <span role="presentation" className="border-l-[1px] border-[#777777]"></span>
           <Link href={"/terms-conditions"}>
             <span className="text-[#b9b9b9] cursor-pointer">
               {" "}
               Terms & Conditions
             </span>
           </Link>
-          <span className="border-l-[1px] border-[#777777] max-sm:hidden"></span>
+          <span role="presentation" className="border-l-[1px] border-[#777777] max-sm:hidden"></span>
           <span className="text-[#85a3c8]">
             All rights reserved Copyright 2023
           </span>

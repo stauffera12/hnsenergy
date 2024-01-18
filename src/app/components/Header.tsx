@@ -112,6 +112,8 @@ const Header = () => {
                 <div
                   onClick={makeCall}
                   className="flex flex-col justify-center cursor-pointer "
+                  role="button"
+                  tabIndex={0}
                 >
                   <span className=" font-normal">Call Us</span>
                   <span className=" font-bold">(714) 761 5426</span>
@@ -121,7 +123,9 @@ const Header = () => {
                 <img src="/email.png" alt="Email icon" />
                 <div
                   onClick={sendEmail}
-                  className="flex flex-col justify-center cursor-pointer"
+                  className=""
+                  role="button"
+                  tabIndex={0}
                 >
                   <span className=" font-normal">Email Address</span>
                   <span className=" font-bold">info@hnsenergyproducts.com</span>
@@ -187,6 +191,7 @@ const Header = () => {
                           : ""
                       }`}
                       onClick={() => handleClick("power-market")}
+                      aria-label="Power Market"
                     >
                       Power Market
                     </a>
@@ -243,13 +248,14 @@ const Header = () => {
             <Link href={"/"} className="  cursor-pointer ">
               Home
             </Link>
-            <Link href={"/our-history"} className="  cursor-pointer ">
+            <a href="/our-history" aria-label="Our History" className="  cursor-pointer ">
               Our History
-            </Link>
+            </a>
             <a
               href="https://pwrmarket.com"
               target="_blank"
               className="cursor-pointer"
+              aria-label="Power Market"
             >
               Power Market
             </a>

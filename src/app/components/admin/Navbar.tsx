@@ -45,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = (props) => {
     <div className='flex flex-col w-[100%] bg-[#2D3A3A] max-md:w-[35%] justify-between h-[100vh] text-white px-6 py-5'>
       <div className='z-20 bg-[#2D3A3A] '>
         <div onClick={handleClick} className='logo gap-[5px] flex font-bold text-sm items-center justify-center mb-10 cursor-pointer'>
-        <Image src='/logofooter.png' alt='' width={50} height={50} className=' h-[30px] w-[42px]' />
+        <Image src='/logofooter.png' alt='hn footer' width={50} height={50} className=' h-[30px] w-[42px]' />
           <span className=' font-bold text-[20px] text-white'>H & S Energy</span>
           {/* <img
             src='/logo.png'

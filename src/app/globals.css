@@ -69,3 +69,6 @@ body::-webkit-scrollbar-thumb {
 input::placeholder { 
   color: none !important;
 }
+#contactReason:focus {
+  outline: 1px solid #af272f; 
+}

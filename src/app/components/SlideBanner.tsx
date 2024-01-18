@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const SlideBanner = () => {
   return (
@@ -41,14 +42,14 @@ const SlideBanner = () => {
                   className="h-screen max-sm:h-[50vh] w-full pt-[100px] max-sm:pt-0 flex justify-center"
                 >
                   <div className=" justify-center items-center p-[30px] max-sm:w-full text-white text-center flex flex-col gap-[20px] bg-opacity-70 rounded-lg">
-                    <h1
+                    <div
                       className="text-[50px] max-sm:text-[30px] uppercase font-bold"
                       style={{
                         textShadow: "#000000 5px 0px 0px",
                       }}
                     >
                       {slide.title}
-                    </h1>
+                    </div>
                     <p
                       className="text-[14px] font-bold w-[50%] max-sm:w-[100%]"
                       style={{
@@ -57,10 +58,8 @@ const SlideBanner = () => {
                     >
                       {slide.content}
                     </p>
-                    <a href="https://pwrmarket.com" target="_blank">
-                      <button className="bg-[#af272f] text-[14px] text-white p-3 py-3 px-10 font-bold rounded-[4px]  text-center cursor-pointer uppercase">
-                        Explore Now
-                      </button>
+                    <a href="https://pwrmarket.com" target="_blank" aria-label="Explore Now">
+                      <button className="bg-[#af272f] text-[14px] text-white p-3 py-3 px-10 font-bold rounded-[4px] text-center cursor-pointer uppercase">Explore Now</button>
                     </a>
                   </div>
                 </motion.div>
@@ -74,49 +73,49 @@ const SlideBanner = () => {
           <div className="h-[5vh] overflow-hidden">
             <img
               src="/header/charge.png"
-              alt="charge image"
+              alt="Electric icon"
               className="h-[4vh] w-[100%] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
           <div className="overflow-hidden pl-[100px]">
             <img
               src="/header/two.png"
-              alt="header Image"
+              alt="two icon"
               className=" object-cover transform  duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
           <div className="overflow-hidden rounded-[10px] pl-[50px]">
             <img
               src="/header/chevron.png"
-              alt="chevron Image"
+              alt="Chevron icon"
               className="object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
           <div className="w-[50%] overflow-hidden rounded-[100px]">
             <img
               src="/header/gaso.png"
-              alt="gaso Image"
+              alt="Gasoline icon"
               className="w-[100%] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
           <div className="overflow-hidden">
             <img
               src="/header/extra.png"
-              alt="Logo Image"
+              alt="Extra logo"
               className="object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
           <div className=" overflow-hidden">
             <img
               src="/header/one.png"
-              alt="one Image"
+              alt="one icon"
               className=" object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>
           <div className=" h-[5vh] w-[150%] pr-[90px] overflow-hidden">
             <img
               src="/header/pearson.png"
-              alt="pearson Image"
+              alt="Pearson logo"
               className="h-[4vh] object-cover transform transition-transform duration-500 hover:scale-125 hover:duration-700"
             />
           </div>

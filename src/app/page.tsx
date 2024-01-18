@@ -22,9 +22,9 @@ export default function Home() {
         <div className="bg-white  flex flex-col gap-[30px] ">
           <div className="flex max-sm:flex-col-reverse gap-[30px] p-[100px] max-sm:p-[20px] flex-row-reverse">
             <div className="text-[#0e0e0e] text-[14px] w-[50%] max-sm:w-[100%]">
-              <h1 className="text-[42px] max-sm:text-[30px] font-bold pb-[30px] max-sm:pt-[20px]">
+              <div className="text-[42px] max-sm:text-[30px] font-bold pb-[30px] max-sm:pt-[20px]">
                 A JOURNEY TO SUCCESS
-              </h1>
+              </div>
               <p className="text-[14px] mb-4 leading-[28px]">
                 Our vision has guided H&S Energy Products, LLC to foster
                 business growth by strategically expanding its services to
@@ -43,17 +43,17 @@ export default function Home() {
                 100+ locations throughout California with a large team of
                 seasoned personnel.
               </p>
-              <Link href={"/our-history"}>
-                <button className="bg-[#123157] text-white p-3 font-bold rounded-[4px] py-4 px-10 text-center cursor-pointer uppercase">
+              <a href="/our-history">
+                <button aria-label="Explore Now - Our History" className="bg-[#123157] text-white p-3 font-bold rounded-[4px] py-4 px-10 text-center cursor-pointer uppercase">
                   explore now
                 </button>
-              </Link>
+              </a>
             </div>
             <div className="w-[50%] flex max-sm:w-[100%] pl-[40px] max-sm:pl-0">
-              <img src="/red.png" alt="history Image" className="" />
+              <img src="/red.png" alt="Red background" className="" />
               <motion.img
                 src="/chevron.png"
-                alt="chevron Image"
+                alt="Large Chevron icon"
                 className="h-[65vh] relative right-[150px] top-[20px] max-sm:w-[65%] object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
