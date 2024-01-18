@@ -17,10 +17,10 @@ const SlideBanner = () => {
           loop={true}
           spaceBetween={50}
           slidesPerView={1}
-          navigation
+          navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
           pagination={{ clickable: true }}
           autoplay={{ delay: 1000, disableOnInteraction: false }}
-          className=" relative z-20"
+          className="relative z-20"
         >
           {bannerData.map((slide) => (
             <SwiperSlide key={slide.id}>
@@ -41,7 +41,7 @@ const SlideBanner = () => {
                   style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
                   className="h-screen max-sm:h-[50vh] w-full pt-[100px] max-sm:pt-0 flex justify-center"
                 >
-                  <div className=" justify-center items-center p-[30px] max-sm:w-full text-white text-center flex flex-col gap-[20px] bg-opacity-70 rounded-lg">
+                  <div className="justify-center items-center p-[30px] max-sm:w-full text-white text-center flex flex-col gap-[20px] bg-opacity-70 rounded-lg">
                     <div
                       className="text-[50px] max-sm:text-[30px] uppercase font-bold"
                       style={{
@@ -66,7 +66,10 @@ const SlideBanner = () => {
               </motion.div>
             </SwiperSlide>
           ))}
+          <div className="swiper-button-prev" role="button" aria-label="Previous Slide"></div>
+          <div className="swiper-button-next" role="button"  aria-label="Next Slide"></div>
         </Swiper>
+
       </div>
       <div className="flex justify-center -top-[60px] relative z-10">
         <div className="bg-white grid grid-cols-7 max-sm:grid-cols-2 items-center w-[80%] p-[10px] rounded-[10px] shadow-xl ">
