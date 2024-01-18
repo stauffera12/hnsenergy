@@ -58,7 +58,7 @@ const SlideBanner = () => {
                     >
                       {slide.content}
                     </p>
-                    <a href="https://pwrmarket.com" target="_blank" aria-label="Explore Now">
+                    <a href="https://pwrmarket.com" target="_blank" aria-label="Opens in a new tab: Explore Now" >
                       <button className="bg-[#af272f] text-[14px] text-white p-3 py-3 px-10 font-bold rounded-[4px] text-center cursor-pointer uppercase">Explore Now</button>
                     </a>
                   </div>

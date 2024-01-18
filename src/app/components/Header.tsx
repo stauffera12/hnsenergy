@@ -255,7 +255,7 @@ const Header = () => {
               href="https://pwrmarket.com"
               target="_blank"
               className="cursor-pointer"
-              aria-label="Power Market"
+              aria-label="Opens in a new tab: Power market"
             >
               Power Market
             </a>
