@@ -85,7 +85,7 @@ const ContactMap = () => {
                                 </div>
                                 <div className='flex gap-[15px] items-center'>
                                     <LiaMapMarkedAltSolid size={20} />
-                                    <span className='text-[14px]'>2860 N.Santigo Blvd, Orange, CA 92867</span>
+                                    <span className='text-[14px]'>2860 N.Santiago Blvd, Orange, CA 92867</span>
                                 </div>
                                 <div className='pl-[35px] pb-[70px]'>
                                     <span className='text-[14px]  border-b-[1px] '>Open Map</span>

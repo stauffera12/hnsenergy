@@ -33,7 +33,7 @@ const Footer = () => {
                                         <FaMapMarkerAlt className='lg:hidden ' />
                                         <span >ADDRESS</span>
                                     </div>
-                                    <span>2860 N.Santigo Blvd, Orange, CA 92867</span>
+                                    <span>2860 N.Santiago Blvd, Orange, CA 92867</span>
                                 </div>
                             </div>
                             <div className='flex gap-[15px] max-sm:justify-center'>

@@ -6,6 +6,8 @@ import { HiOutlineBars3BottomLeft } from "react-icons/hi2";
 import Data from '../locations/Data';
 import { useRouter } from 'next/navigation';
 import "../contact-us.css"
+import wheelchair from '../../../public/wheelchair.png';
+import Image from 'next/image';
 
 interface Store {
     storeId: string;
@@ -71,6 +73,7 @@ const Header = () => {
                         </a>
                     </div>
                 </div>
+                    <Image src={wheelchair} alt="Wheelchair Icon" width={50} />
                 <div className='w-[15%] max-sm:w-[40%] max-lg:w-[30%] bg-[#af272f] py-3 flex justify-between  items-center px-2 '>
                     <input  onKeyPress={handleKeyPress} onChange={(e) => setSearchTerm(e.target.value)} type="search" name="" id="searchInput" placeholder='Find a Station...' className=' outline-none w-[70%] ' style={{ background: 'none', border: 'none', color: 'white' }} />
                     <BiSearch onClick={handleSearch} size={15} className='cursor-pointer text-white' />
@@ -101,7 +104,7 @@ const Header = () => {
                                 <img src="/address.png" alt="" />
                                 <div className='flex flex-col justify-center'>
                                     <span className=' font-normal'>Office Address</span>
-                                    <span className=' font-bold'>2860 N.Santigo Blvd, Orange, CA 92867</span>
+                                    <span className=' font-bold'>2860 N.Santiago Blvd, Orange, CA 92867</span>
                                 </div>
                             </div>
                         </div>
