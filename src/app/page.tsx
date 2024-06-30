@@ -10,9 +10,11 @@ import SlideBanner from './components/SlideBanner'
 import Link from 'next/link'
 import { motion } from 'framer-motion';
 import ScrollTop from './components/ScrollTop'
-
+import { CookieBanner } from './components/cookieBanner';
+ 
 export default function Home() {
   return (
+    <>
     <div className='bg-white'>
       <Header />
       <span className=' pt-[80px] max-sm:pt-0 block'>
@@ -50,5 +52,7 @@ export default function Home() {
       <Footer />
       <ScrollTop/>
     </div>
+    <CookieBanner />
+    </>
   )
 }
