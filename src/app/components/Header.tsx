@@ -152,7 +152,7 @@ const Header = () => {
                             Our History
                         </Link>
                         <a href="https://pwrmarket.com" target="_blank" className="cursor-pointer">Power Market</a>
-                        <Link href={'/locations'} className='  cursor-pointer '>
+                        <Link href={'https://locations.pwrmarket.com/'} className='  cursor-pointer '>
                             Locations
                         </Link>
                         <Link href={'/commercial-accounts'} className='  cursor-pointer '>

@@ -68,7 +68,7 @@ const Footer = () => {
                             <Link href={'/alternative-fuel'} className=' hover:text-gray-400 cursor-pointer'>Alternative Fuel</Link>
                             <Link href={'/careers'} className=' hover:text-gray-400 cursor-pointer'>Careers</Link>
                             <Link href={'/contact-us'} className=' hover:text-gray-400 cursor-pointer'>Contact Us</Link>
-                            <Link href={'/locations'} className=' hover:text-gray-400 cursor-pointer'>Locations</Link>
+                            <Link href={'https://locations.pwrmarket.com/'} className=' hover:text-gray-400 cursor-pointer'>Locations</Link>
                         </div>
                     </div>
                     <div className='flex flex-col gap-[30px] max-sm:justify-center max-sm:text-center max-sm:items-center'>
